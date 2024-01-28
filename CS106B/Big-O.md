@@ -2,22 +2,17 @@
 1. Identify operations(s) executed the most
 2. Count their occurrences.
 3. Drop lower-order terms and constant coefficients
-4. doesn't necessarily give a direct comparison of the performance, it focuses on the kind of growth a runtime incurs as a function's input grows.
+4. Doesn't necessarily give a direct comparison of the performance
+    - it focuses on the kind of growth a runtime incurs as a function's input grows.
+5. [Runtime Estimation with Exponential Growth](https://github.com/juho-creator/CS-Courses/edit/main/CS106B/BIG_O.cpp)
 
-5. 
-
-
+</br>
 
 # Big-O Notation Example
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/aa267791-ae2a-45c4-8bfe-b03e991e0598)
 
+</br>
 
 # Pass-by-value  vs Pass-by-reference
 ![화면 캡처 2024-01-28 092751](https://github.com/juho-creator/CS-Courses/assets/72856990/fb9084fc-f937-408f-a904-edec90e235e9)
 
-
-
-'''
-
-
-'''
