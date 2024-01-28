@@ -1,10 +1,16 @@
 # Big-O and Algorithmic Analysis
+- Doesn't necessarily give a direct comparison of the performance
+    - it focuses on the kind of growth a runtime incurs as a function's input grows.
+- [Demonstration of Runtime Estimation with Exponential Growth](https://github.com/juho-creator/CS-Courses/edit/main/CS106B/BIG_O.cpp)
+- O(log N) ≈ O(1)   (refer to [relative growth rates of common Big-O runtimes](https://www.desmos.com/calculator/lpjjt51rdd))
+
+
+# Performing Big-O and Algorithmic Analysis
 1. Identify operations(s) executed the most
 2. Count their occurrences.
 3. Drop lower-order terms and constant coefficients
-4. Doesn't necessarily give a direct comparison of the performance
-    - it focuses on the kind of growth a runtime incurs as a function's input grows.
-5. [Runtime Estimation with Exponential Growth](https://github.com/juho-creator/CS-Courses/edit/main/CS106B/BIG_O.cpp)
+
+
 
 </br>
 
