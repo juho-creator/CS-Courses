@@ -39,8 +39,9 @@ using namespace std;
 
 
 
-// Container adaptors =  “wrappers” to existing containers!
-    // structture??
+    // 3. Container adaptors =  “wrappers” to existing containers!
+         // ●  Stack
+							// ●  (Priority) Queue
 
 
 
