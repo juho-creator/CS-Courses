@@ -27,3 +27,4 @@ Notes on CS lectures
 
 # Reference
 - [Fibonacci Algorithm Analysis](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
+- [Stepping through Fibonacci Function](https://www.youtube.com/watch?v=zg-ddPbzcKM)
