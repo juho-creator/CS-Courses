@@ -45,5 +45,12 @@ Notes on CS lectures
 </br></br></br>
 
 # Reference
+**Fibonacci Algorithm**
 - [Fibonacci Algorithm Analysis](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
 - [Stepping through Fibonacci Function](https://www.youtube.com/watch?v=zg-ddPbzcKM)
+</br> 
+
+
+**Merge Sort Algorithm**
+- [Merge Sort Animation](https://www.youtube.com/watch?v=4VqmGXwpLqc)
+- [Merge Sort Code](https://www.youtube.com/watch?v=LeWuki7AQLo)
