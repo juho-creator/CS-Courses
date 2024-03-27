@@ -45,12 +45,26 @@ Notes on CS lectures
 </br></br></br>
 
 # Reference
+**Time complexity**
+- [Calculating Time Complexity](https://www.youtube.com/watch?v=KXAbAa1mieU)
+- [Significance of Time Complexity](https://www.youtube.com/watch?v=BiclygL5dXo)
+- [Time Complexity Analysis](https://www.youtube.com/watch?v=jbJd7gzefq0)
+</br> 
+
+
 **Fibonacci Algorithm**
 - [Fibonacci Algorithm Analysis](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
 - [Stepping through Fibonacci Function](https://www.youtube.com/watch?v=zg-ddPbzcKM)
 </br> 
 
 
-**Merge Sort Algorithm**
+**Merge Sort Algorithm** [(Learn More)](https://www.geeksforgeeks.org/time-and-space-complexity-analysis-of-merge-sort/)
 - [Merge Sort Animation](https://www.youtube.com/watch?v=4VqmGXwpLqc)
+- [Deriving time complexity of merge sort](https://www.youtube.com/watch?v=g1AwUYauqgg)
 - [Merge Sort Code](https://www.youtube.com/watch?v=LeWuki7AQLo)
+</br>
+
+**Quick Sort Algorithm** [(Learn More)](https://www.geeksforgeeks.org/quick-sort/)
+- [Quick Sort Animation](https://www.youtube.com/watch?v=Hoixgm4-P4M)
+- [Deriving time complexity of quick sort](https://www.youtube.com/watch?v=-qOVVRIZzao)
+- [Quick Sort Code](https://www.youtube.com/watch?v=0jDiBM68NGU)
