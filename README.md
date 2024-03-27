@@ -38,7 +38,7 @@ Notes on CS lectures
 </br></br>
 
 #### Recursive
-- Time Complexity: Exponential - every function calls two other functions
+- Time Complexity: O(r^n) - every function calls two other functions
 - Space Complexity: O(n) - maximum depth of the recursion tree is n
 
 
