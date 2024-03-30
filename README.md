@@ -40,6 +40,24 @@ Notes on CS lectures
 #### Recursive
 - Time Complexity: O(r^n) - every function calls two other functions
 - Space Complexity: O(n) - maximum depth of the recursion tree is n
+</br></br>
+
+### Analyzing time complexity of a recursive function
+**Homogeneous Linear Recurrence Relations**
+1. Find the recurrence relation for the recursive function.
+2. Transform the recurrence relation into a homogeneous equation.
+3. Formulate the characteristic equation using the homogeneous equation.
+4. Determine the roots of the characteristic equation.
+5. Use the roots to derive the general solution of the homogeneous equation.
+6. Analyze two cases:
+   - **Case 1**: The equation has k distinct roots.
+   - **Case 2**: Some roots have multiplicity m > 1.
+7. The general solution represents the time complexity behavior of the recursive function.
+
+
+**Nonhomogeneous Linear Recurrence Relations**
+
+
 
 
 </br></br></br>
@@ -68,3 +86,7 @@ Notes on CS lectures
 - [Quick Sort Animation](https://www.youtube.com/watch?v=Hoixgm4-P4M)
 - [Deriving time complexity of quick sort](https://www.youtube.com/watch?v=-qOVVRIZzao)
 - [Quick Sort Code](https://www.youtube.com/watch?v=0jDiBM68NGU)
+
+**Analyzing time complexity of recursive function**
+- [Recurrence Relation](https://www.youtube.com/watch?v=4V30R3I1vLI)
+- [Characteristic equation and characteristic roots of recurrence relations](https://www.youtube.com/watch?v=GvOBBcnIjlw)
