@@ -86,7 +86,9 @@ Notes on CS lectures
 - [Quick Sort Animation](https://www.youtube.com/watch?v=Hoixgm4-P4M)
 - [Deriving time complexity of quick sort](https://www.youtube.com/watch?v=-qOVVRIZzao)
 - [Quick Sort Code](https://www.youtube.com/watch?v=0jDiBM68NGU)
+</br>
 
 **Analyzing time complexity of recursive function**
 - [Recurrence Relation](https://www.youtube.com/watch?v=4V30R3I1vLI)
 - [Characteristic equation and characteristic roots of recurrence relations](https://www.youtube.com/watch?v=GvOBBcnIjlw)
+- [Non-Homogeneous Linear Recurrence Relations](https://www.youtube.com/watch?v=NKsz2mGxX4A)
