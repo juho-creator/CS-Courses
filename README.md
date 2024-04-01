@@ -63,6 +63,12 @@ Notes on CS lectures
 </br></br></br>
 
 # Reference
+**Basics of data structure**
+- [Graphs](https://www.youtube.com/watch?v=-VgHk7UMPP4&list=WL)
+- [Binomial Coefficient](https://www.youtube.com/watch?v=WHztDZECzlM)
+
+
+
 **Time complexity**
 - [Calculating Time Complexity](https://www.youtube.com/watch?v=KXAbAa1mieU)
 - [Significance of Time Complexity](https://www.youtube.com/watch?v=BiclygL5dXo)
@@ -88,7 +94,13 @@ Notes on CS lectures
 - [Quick Sort Code](https://www.youtube.com/watch?v=0jDiBM68NGU)
 </br>
 
+
+
+
 **Analyzing time complexity of recursive function**
 - [Recurrence Relation](https://www.youtube.com/watch?v=4V30R3I1vLI)
 - [Characteristic equation and characteristic roots of recurrence relations](https://www.youtube.com/watch?v=GvOBBcnIjlw)
 - [Non-Homogeneous Linear Recurrence Relations](https://www.youtube.com/watch?v=NKsz2mGxX4A)
+
+**Shortest path algorithm**
+- [Floyd Warshall Algorithm](https://www.youtube.com/watch?v=4OQeCuLYj-4)
