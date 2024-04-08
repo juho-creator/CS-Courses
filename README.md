@@ -59,6 +59,11 @@ Notes on CS lectures
 
 
 
+### Dynamic programing vs Divide and Conquer
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/17c79ae7-9915-4211-b3ec-867c00989d75)
+
+
+
 
 </br></br></br>
 
