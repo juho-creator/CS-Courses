@@ -1,4 +1,5 @@
-/* Demonstration of class with invariant, rules for valid value defined at is_valid() */
+/* Demonstration of class with invariant, rules for valid value.
+In this code, invariant is defined at is_valid() */
 
 #include <iostream>
 
