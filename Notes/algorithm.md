@@ -43,7 +43,9 @@ Notes on CS lectures
 </br></br>
 
 ### Analyzing time complexity of a recursive function
-**Homogeneous Linear Recurrence Relations**
+**Homogeneous Linear Recurrence Relations**</br>
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/bef5dc86-08cb-4720-ae6b-b35d565b1f2a)
+
 1. Find the recurrence relation for the recursive function.
 2. Transform the recurrence relation into a homogeneous equation.
 3. Formulate the characteristic equation using the homogeneous equation.
@@ -53,15 +55,18 @@ Notes on CS lectures
    - **Case 1**: The equation has k distinct roots.
    - **Case 2**: Some roots have multiplicity m > 1.
 7. The general solution represents the time complexity behavior of the recursive function.
+</br></br>
 
+**Nonhomogeneous Linear Recurrence Relations**</br>
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/61fa51ba-677b-492f-83f4-a4763f26d763)
 
-**Nonhomogeneous Linear Recurrence Relations**
 </br></br>
 
 
 
 ### Dynamic programing vs Divide and Conquer
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/70a552a3-b123-464d-89e2-6afe969cc20d)
+</br>
 Just like divide and conquer, dynamic programming also solves by breaking down into multiple subproblems.
 However, it stores any redundant calculation/function calls in advance to prevent repetition.
 This improves the time complexity of an algorithm.
