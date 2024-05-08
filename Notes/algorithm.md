@@ -1,9 +1,3 @@
-# CS-Courses
-Notes on CS lectures
-</br></br></br>
-
-
-
 # Algorithm Analysis
 ### Levels of Time Complexity 
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/b893c367-a1f3-4b20-9533-3184c2b215f7)
@@ -75,6 +69,39 @@ This improves the time complexity of an algorithm.
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/17c79ae7-9915-4211-b3ec-867c00989d75)
 </br></br></br>
 
+# Backtracking
+- Stop performing the depth in search when non-promising node is found. </br>
+- Finding the prune space tree for solution over the full tree allows  the algorithm run faster 
+
+### N Queens Problem
+
+
+
+
+### Sum of subset Algorithm (Using backtracking)
+Finding all possible subsets that results in W when summed up all together
+</br>
+
+If node is non promising, that is, it is not possible to end up with the solution in the next step,
+the node is pruned (removed). 
+</br>
+
+Else if node is promising, depth in search is performed by creating 2 nodes with each being  </br>
+**current weight + next weight** and **current weight** respectively.
+</br>
+
+The process mentioned above is repeated recursively until we get a complete pruned state space tree.
+</br></br></br>
+
+
+###  m-coloring problem
+Given m colors, find all ways to color an undirected graph so that no two adjacent vertices are the same color
+
+
+
+
+
+
 # Reference
 **Basics of data structure**
 - [Graphs](https://www.youtube.com/watch?v=-VgHk7UMPP4&list=WL)
@@ -121,3 +148,6 @@ This improves the time complexity of an algorithm.
 **Shortest path algorithm**
 - [Floyd Warshall Algorithm](https://www.youtube.com/watch?v=4OQeCuLYj-4)
 - [플로이드 워셜 알고리즘](https://velog.io/@kimdukbae/%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9B%8C%EC%85%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Floyd-Warshall-Algorithm)
+
+**Confusing Concepts**
+- [Graph vs Tree](https://www.geeksforgeeks.org/difference-between-graph-and-tree/)
