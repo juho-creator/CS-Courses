@@ -21,7 +21,7 @@ Making series of locally optimal choices with the hope of finding a global optim
 </br></br></br>
 
 
-### Huffman Code
+## Huffman Code
 Losseless data compression algorithm using variable length binary code
 - Represents different characters using different number of bits
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/6fd0a568-82b0-4b39-88dc-878407ce36ea)
@@ -40,25 +40,35 @@ Optimization problem where the goal is to maximize the total value of items plac
 **Ex**: Selecting items to pack in a suitcase to maximize the total value (utility) of the items without exceeding the weight limit of the suitcase.
 </br></br>
 
-- Brute Force Solution
+## Brute Force Solution
 1. Consider all possible subset of S
 2. Discard all subset with total weight > W
 3. Of those remaining, take one with the max total profit
 </br></br>
 
-- Greedy Approach </br>
-Simple Greedy Approach</br>
-**Type1**: Take items in decsending order of profit </br>
+## Greedy Approach </br>
+**Simple Greedy Approach**</br>
+**Type1**
+- Take items in decsending order of profit </br>
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/892656b2-d2a3-4900-88a3-26b3010e0ecb)
  </br> </br>
 
  
-**Type2**: Take items in ascending order of weight </br>
+**Type2**
+- Take items in ascending order of weight </br>
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/fe6bbdb6-b22d-4aa3-a912-9f52f25426ca)
-</br> </br>
+</br></br>
 
 
 
-Sophisticated Greedy Approach
-Take items in descending order of profit/weight
+**Sophisticated Greedy Approach**
+- Take items in descending order of profit/weight </br>
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/581495c1-06fc-4c41-b404-a874bbbe1047)
+</br></br>
+
+**Dynamic Programming Approach**
+-
+</br></br>
+
+
+
