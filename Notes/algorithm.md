@@ -69,6 +69,52 @@ This improves the time complexity of an algorithm.
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/17c79ae7-9915-4211-b3ec-867c00989d75)
 </br></br></br>
 
+# Greedy Algorithm
+Making series of locally optimal choices with the hope of finding a global optimum solution
+</br></br></br>
+
+## Prim's Algorithm
+1. Start at arbitrary vertext
+2. Add smallest edge that conencts a vertext until all vertices are included
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/89da8039-9880-4026-8063-d7a0c642abb5)
+</br>
+
+
+
+## Kruskal's Algorithm
+1. Sort edges in ascending order
+2. Add smallest edge that connects
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/ec7582f1-c83c-4955-84e8-a3da01920173)
+</br>
+
+### Prim's Algorithm vs Kruskal's Algorithm
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/a9914060-07bd-42d3-bd44-c10836d18dd5)
+</br></br></br>
+
+
+### Huffman Code
+Losseless data compression algorithm using variable length binary code
+- Represents different characters using different number of bits
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/6fd0a568-82b0-4b39-88dc-878407ce36ea)
+</br></br></br>
+
+
+### Fixed vs Huffman Code
+- Huffman Code has variable number of bits 
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/980103b9-b204-4d79-b902-fcb3be945665)
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/78dd5a1b-74d7-474c-bf96-c44c3f8c5d90)
+</br></br></br>
+
+
+# 0-1 Knapsack Problem
+Optimization problem where the goal is to maximize the total value of items placed in a knapsack without exceeding its weight capacity. </br>
+**Ex**: Selecting items to pack in a suitcase to maximize the total value (utility) of the items without exceeding the weight limit of the suitcase.
+
+1. Brute Force Solution
+2. A Simple Greedy Approach
+3. 
+
+
 # Backtracking
 - Stop performing the depth in search when non-promising node is found. </br>
 - Finding the prune space tree for solution over the full tree allows  the algorithm run faster 
