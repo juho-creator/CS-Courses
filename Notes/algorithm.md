@@ -1,4 +1,6 @@
 # Algorithm Analysis
+- Chapter1 (Big O)
+
 ### Levels of Time Complexity 
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/b893c367-a1f3-4b20-9533-3184c2b215f7)
 </br></br>
@@ -109,10 +111,31 @@ Losseless data compression algorithm using variable length binary code
 # 0-1 Knapsack Problem
 Optimization problem where the goal is to maximize the total value of items placed in a knapsack without exceeding its weight capacity. </br>
 **Ex**: Selecting items to pack in a suitcase to maximize the total value (utility) of the items without exceeding the weight limit of the suitcase.
+</br></br>
 
-1. Brute Force Solution
-2. A Simple Greedy Approach
-3. 
+- Brute Force Solution
+1. Consider all possible subset of S
+2. Discard all subset with total weight > W
+3. Of those remaining, take one with the max total profit
+</br></br>
+
+- Greedy Approach </br>
+Simple Greedy Approach</br>
+**Type1**: Take items in decsending order of profit </br>
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/892656b2-d2a3-4900-88a3-26b3010e0ecb)
+ </br> </br>
+
+ 
+**Type2**: Take items in ascending order of weight </br>
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/fe6bbdb6-b22d-4aa3-a912-9f52f25426ca)
+</br> </br>
+
+
+
+Sophisticated Greedy Approach
+Take items in descending order of profit/weight
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/581495c1-06fc-4c41-b404-a874bbbe1047)
+
 
 
 # Backtracking
