@@ -3,11 +3,8 @@
 - **Dynamic programming and Divide and Conquer** - [Chapter2 & Chapter3](https://github.com/juho-creator/CS-Courses/blob/main/Notes/chapter2%2C3.md) 
 - **Greedy Approach** - [Chapter4](https://github.com/juho-creator/CS-Courses/blob/main/Notes/chapter4.md) 
 - **Backtracking** - [Chapter5](https://github.com/juho-creator/CS-Courses/blob/main/Notes/chapter5.md)
-
-
-
-
-
+- **Branch and Bound** - [Chapter6](https://github.com/juho-creator/CS-Courses/blob/main/Notes/chapter6.md)
+</br>
 
 
 
