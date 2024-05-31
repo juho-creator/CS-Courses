@@ -41,13 +41,17 @@ the node is pruned (removed).
 ##  m-coloring problem
 Given m colors, find all ways to color an undirected graph so that no two adjacent vertices are the same color
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/2dee1e31-f2d5-4eca-8a9e-62ed597c4919)
+</br></br>
 
 
 ## Hamiltonian Circuit Problem
 IDK
+</br></br>
 
 
 ## Fractional Knapsack Problem
-아이템을 나눠서 비워있는 만큼만 채움
+아이템을 나눠서 비워있는 만큼만 채움 </br>
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/5854a692-c3d4-4ce9-9875-63460d1cc67f)
+
 
 
