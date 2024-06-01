@@ -23,7 +23,8 @@
 - Finding all possible subsets that results in W when summed up all together
 </br>
 
-![image](https://github.com/juho-creator/CS-Courses/assets/72856990/1075a09f-49a3-4153-82d1-96b4dc3678cd)
+![sum of subset](https://github.com/juho-creator/CS-Courses/assets/72856990/917e4f16-b3da-4b90-a2d6-1bcfc3874860)
+
 
 1. If node is non promising, that is, it is not possible to end up with the solution in the next step,
 the node is pruned (removed). 
