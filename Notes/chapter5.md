@@ -51,7 +51,8 @@ IDK
 
 ## Fractional Knapsack Problem
 아이템을 나눠서 비워있는 만큼만 채움 </br>
-![image](https://github.com/juho-creator/CS-Courses/assets/72856990/5854a692-c3d4-4ce9-9875-63460d1cc67f)
+![image](https://github.com/juho-creator/CS-Courses/assets/72856990/813e37f2-9fe0-459c-a1c3-5fd1ade1e734)
+
 
 
 
