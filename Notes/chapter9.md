@@ -7,7 +7,7 @@ An algorithm with polynomial time complexity.
 </br></br>
 
 ## Intractable Problem
-A problem that's impossible to solve efficiently with a polynomial time algorithm.
+A problem that's impossible to solve efficiently with a polynomial time algorithm. (Cannot be solved with computer)
 </br></br></br></br>
 
 
@@ -31,9 +31,11 @@ Problem with an answer as "yes" or "no"  </br>
 - **Knapsack Decision Problem**: Can items be packed in the knapsack to achieve exactly a given total value?
 
 # Theory of NP
-- P : Set of all decision problems that can be solved by polynomial time algorithm
+- PolyNomial Bounded (P) : Set of all decision problems that can be solved by polynomial time algorithm
 - Verification : Checking whether the claim solution is the actual solution to the decision problem
   - Failing to verify a solution doesn't mean the answer is "no," and being able to verify solutions quickly doesn't mean the problem can be solved quickly.
   - Verification quickly checks if a solution is correct, even if finding it is hard
+
+- Nondeterministic Polynomial Bounded (NP): Set of problems which there exists a tractable algorithm for checking solutions to see if they are correct
 - Nondeterministic Algorithm :
 
