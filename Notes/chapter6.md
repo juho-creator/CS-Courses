@@ -1,7 +1,7 @@
 # Branch and Bound
 Non-promising if :
 - bound <= maximum profit (branch is pruned when the node is visited)
-- weight >= w (set bound to $0)
+- weight > w (set bound to $0)
 
 </br></br>
 
