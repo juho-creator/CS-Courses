@@ -32,7 +32,16 @@ Problem with an answer as "yes" or "no"  </br>
 
 # Theory of NP
 - **Polynomial Bounded (P)** : Set of all decision problems that can be solved by polynomial time algorithm
-- **Nondeterministic Polynomial Bounded (NP)**: Set of problems which there exists a polynomial time nondeterministic algorithm
+- **Nondeterministic Polynomial Bounded (NP)**: Set of problems which there exists a polynomial time nondeterministic algorithm (can be gussed and verified)
+-transformation algorithm : algorithm that converts problem into another format  
+- NP complete problem: Can be reduced to take polynomial time
+- NP problem : only verification takes polynomial time, but overall take nonpolynomial time due to guessing
+- polynomial time many one reducible problem:
+problem convertible to another format to be solved more efficiently
+
+
+ 
+
 - **Verification** : Checking whether the claim solution is the actual solution to the decision problem
   - Failing to verify a solution doesn't mean the answer is "no," and being able to verify solutions quickly doesn't mean the problem can be solved quickly.
   - Verification quickly checks if a solution is correct, even if finding it is hard
