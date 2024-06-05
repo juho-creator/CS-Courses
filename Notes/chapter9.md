@@ -31,11 +31,22 @@ Problem with an answer as "yes" or "no"  </br>
 - **Knapsack Decision Problem**: Can items be packed in the knapsack to achieve exactly a given total value?
 
 # Theory of NP
-- **PolyNomial Bounded (P)** : Set of all decision problems that can be solved by polynomial time algorithm
+- **Polynomial Bounded (P)** : Set of all decision problems that can be solved by polynomial time algorithm
+- **Nondeterministic Polynomial Bounded (NP)**: Set of problems which there exists a polynomial time nondeterministic algorithm
 - **Verification** : Checking whether the claim solution is the actual solution to the decision problem
   - Failing to verify a solution doesn't mean the answer is "no," and being able to verify solutions quickly doesn't mean the problem can be solved quickly.
   - Verification quickly checks if a solution is correct, even if finding it is hard
+- **Nondeterministic Algorithm**
+> [!NOTE]  
+> Nondeterministic Algorithm solves a problem only if guessing and verification each returned Yes and True respectively. 
 
-- **Nondeterministic Polynomial Bounded (NP)**: Set of problems which there exists a tractable algorithm for checking solutions to see if they are correct
-- **Nondeterministic Algorithm** :
+
+  1. Guessing (Nondeterministic)
+        - Simply produces some string S, a guess at a solution (Yes/No)
+    
+  2. Verification (Deterministic)
+        - Checks if answer is True/False
+    
+   
+      
 
