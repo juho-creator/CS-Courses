@@ -70,6 +70,7 @@ Problem with an answer as "yes" or "no"  </br>
 **Example of CNF** </br>
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/ba1d33d6-ca97-4d8a-935a-ff21ae4c6f67)
 - Determines whether there is some truth assignment of variables that makes the CNF true.
+</br></br></br></br>
 
 
 
