@@ -1,0 +1,73 @@
+#include <iostream>
+#include <chrono>
+
+
+using namespace std;
+using namespace chrono;
+
+
+
+// Sequential Search (parameters passed by reference)
+void SeqSearch(const int arr[], int size, int number, int& location) {
+	for (int i = 0; i < size; i++) {
+		if (arr[i] == number) {
+			location = i;
+			return;
+		}
+	}
+}
+
+// Sequential Search (parameters passed by reference)
+void BinarySearch(const int arr[], int size, int number, int& location) {
+	int low, mid, high;
+	low = 0; high = size - 1;
+
+	while (low <= high) {
+		mid = (low + high) / 2;
+		
+		if (arr[mid] == number) {
+			location = mid;
+			return;
+		}
+		else if (arr[mid] > number) {
+			high = mid - 1;
+		}
+		else {
+			low = mid + 1;
+		}
+	}
+
+}
+
+
+
+
+
+int main() {
+	// Initializing Array
+	int arr[] = { 1,2,3,4 };
+	int size = 4;
+	int location;
+	int number = 4;
+
+
+	// Time taken for Sequential Search
+	auto start = high_resolution_clock::now();
+	SeqSearch(arr, size, number, location);
+	auto end = high_resolution_clock::now();
+
+	cout << "--- Sequential Search ---" << endl;
+	cout << "location of " << number << ": " << location << endl;
+	cout << "Linear Search time: "
+		<< duration_cast<nanoseconds>(end - start).count() << " ns" << endl << endl << endl;
+	
+
+	// Time taken for Binary Search
+	start = high_resolution_clock::now();
+	BinarySearch(arr, size, number, location);
+	end = high_resolution_clock::now();
+	cout << "--- Binary Search ---" << endl;
+	cout << "location of " << number << ": " << location << endl;
+	cout << "Binary Search time: "
+		<< duration_cast<nanoseconds>(end - start).count() << " ns" << endl;
+}
