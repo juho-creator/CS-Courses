@@ -1,3 +1,24 @@
+# What's Time Complexity?
+Time complexity is the number of times basic operation is done for each value of input size. </br></br>
+The time complexity of an algoritm is determined by :
+- **input size** : the size of a parameter, such as size of array, value of a single number
+- **basic operation** : group of instructions that gets executed repetitively
+</br></br>
+
+
+### Types of Time Complexity
+- **Every Case** : Basic operation is always done same number of times
+- **Non Every Case** : Performance of an operation is classified into 3 cases : Best, Worst, and Average case
+
+
+
+### Sequential Search Time Complexity Analysis
+Best Case Analysis : 1
+Worst Case Analysis : n
+Average Case Analysis : Complicated
+
+
+  
 ### Levels of Time Complexity 
 ![image](https://github.com/juho-creator/CS-Courses/assets/72856990/b893c367-a1f3-4b20-9533-3184c2b215f7)
 </br></br>
@@ -12,6 +33,7 @@
 - **Omega**  : Lower bound, Best case
 - **Theta** : Average function, Average case
 </br></br>
+
 
 
 
