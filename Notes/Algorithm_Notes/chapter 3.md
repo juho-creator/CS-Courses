@@ -6,7 +6,6 @@
 - Always uses a **top-down approach**
 - Does **not reuse** solutions (no overlapping)
 - **Examples**: Recursive Fibonacci, Merge Sort, Quick Sort, Binary Search
-
 </br>
 
 
@@ -20,9 +19,20 @@
 - **Examples**: Floyd's Algorithm, TSP, OBST, Iterative Fibonacci, Knapsack
 
 ---
-</br>
-</br>
-</br>
+</br></br></br>
+
+
+# 🤔Why not always use dynamic programming if it's more efficient?
+### Comparing the two top down approach
+![image](https://github.com/user-attachments/assets/01dd0943-c487-4a78-8d81-48c617054975)
+</br></br></br>
+
+### Conclusion 
+- Use Divide & Conquer when the subproblems don’t overlap for better code readability
+- Use Dynamic Programming (Top-Down) when you have overlapping subproblems and want to optimize
+
+</br></br></br>
+
 
 
 # 🔹 Classifying Problems
@@ -38,8 +48,8 @@
 - Applications: combinations, Pascal’s Triangle, probability
 
 ---
-</br></br>
-</br>
+</br></br></br>
+
 
 
 
