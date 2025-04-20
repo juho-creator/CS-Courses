@@ -5,7 +5,7 @@
 - Recursively splits a problem into **independent subproblems**
 - Always uses a **top-down approach**
 - Does **not reuse** solutions (no overlapping)
-- **Examples**: Merge Sort, Quick Sort, Binary Search
+- **Examples**: Recursive Fibonacci, Merge Sort, Quick Sort, Binary Search
 
 </br>
 
@@ -17,7 +17,7 @@
 - Two approaches:
   - **Top-down**: recursion + **memoization**
   - **Bottom-up**: iterative **tabulation**
-- **Examples**: Floyd's Algorithm, TSP, OBST, Fibonacci, Knapsack
+- **Examples**: Floyd's Algorithm, TSP, OBST, Iterative Fibonacci, Knapsack
 
 ---
 </br>
