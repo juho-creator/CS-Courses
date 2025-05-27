@@ -9,15 +9,27 @@ using namespace chrono;
 
 // Sequential Search (parameters passed by reference)
 void SeqSearch(const int arr[], int size, int number, int& location) {
-	for (int i = 0; i < size; i++) {
-		if (arr[i] == number) {
-			location = i;
-			return;
-		}
-	}
+	// // 1. Using for loop
+	//for (int i = 0; i < n; i++) {
+	//	if (S[i] == x) {
+	//		location = i;
+	//	}
+	//}
+
+
+	// // 2. Using While loop
+	//while (location <= n && S[location] != x) {
+	//	location++;
+	//}
+	//
+	//if (location == n) {	// If item is not found
+	//	location = -1;
+	//}
 }
 
-// Sequential Search (parameters passed by reference)
+
+
+// Binary Search (parameters passed by reference)
 void BinarySearch(const int arr[], int size, int number, int& location) {
 	int low, mid, high;
 	low = 0; high = size - 1;
