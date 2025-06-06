@@ -12,7 +12,7 @@ Given an input array, we first represent it as a binary tree: </br>
 ![image](https://github.com/user-attachments/assets/87263e9b-6b1b-4231-982f-52b66652c3c8)
 </br></br></br>
 
-We then apply sift-down from the bottom up to maintain the heap property and adjust levels as needed: </br>
+We then apply sift-down operations from the bottom up, swapping each parent with its largest child as needed, to maintain the max-heap property throughout the tree.</br>
 ![image](https://github.com/user-attachments/assets/a9720329-820f-436f-b03d-31dae990855b)
 </br></br></br>
 
