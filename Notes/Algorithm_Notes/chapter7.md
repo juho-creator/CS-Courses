@@ -14,7 +14,7 @@
 - [Quick Sort](https://www.youtube.com/watch?v=Hoixgm4-P4M)
   - Choose pivot, partition array, recursively sort partitions, combine
     
-- [Heap Sort](https://www.youtube.com/watch?v=2DmK_H7IdTo&list=TLPQMDEwNjIwMjRo_xbm40HvMA&index=2)
+- [Heap Sort](https://github.com/juho-creator/CS-Courses/blob/main/Notes/Algorithm_Notes/HeapSort.md)
   - Create max heap
   - Remove largest item
   - Place item in sorted partition
