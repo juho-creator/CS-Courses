@@ -33,6 +33,47 @@ restored. </br>
 ![image](https://github.com/user-attachments/assets/a89ba017-be8b-4ff5-8405-c735944d035f)
 
 
+</br></br></br>
+
+# 📊 Analyzing Worst-Case Time Complexity of HeapSort
+
+## Definitions
+- **n**: Total number of elements in the heap
+- **d**: Height of the heap  
+  ↳ Since a heap is a complete binary tree:  
+  `n = 2^d` ⇒ `d = log₂(n)`
+
+---
+
+## ⏱ Breakdown of HeapSort Time Complexity
+
+### 1. `makeHeap` Phase
+- Constructs the initial max heap from an unsorted array.
+- Each `siftDown` operation depends on the node's depth.
+- Total comparisons across all levels: **O(n)**
+
+### 2. `removeKeys` Phase
+- Removes the maximum (root) element `n` times.
+- Each removal requires a `siftDown` of up to `log n` depth.
+- Total comparisons: **O(n log n)**
+
+---
+
+## 🧮 Total Time Complexity
+✅ **Worst-case time complexity of HeapSort is O(n log n)**
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </br></br></br>
 
