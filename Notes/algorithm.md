@@ -4,6 +4,7 @@
 - **Greedy Approach** - [Chapter4](https://github.com/juho-creator/CS-Courses/blob/main/Notes/chapter4.md) 
 - **Backtracking** - [Chapter5](https://github.com/juho-creator/CS-Courses/blob/main/Notes/chapter5.md)
 - **Branch and Bound** - [Chapter6](https://github.com/juho-creator/CS-Courses/blob/main/Notes/chapter6.md)
+- **Computational Complexity** - [Chapter7](https://github.com/juho-creator/CS-Courses/blob/main/Notes/Algorithm_Notes/chapter7.md)
 - **Introduction to the Theory of NP** - [Chapter9](https://github.com/juho-creator/CS-Courses/blob/main/Notes/chapter9.md)
 </br>
 
