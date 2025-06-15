@@ -9,22 +9,21 @@ Problems are divided into complexity classes based on the computational resource
 - **NP-Complete**: Hardest problem in NP with solutions verifiable in polynomial time, but finding solution takes long time
 - **NP-Hard**: Problems at least as hard as NP-Complete. They may not even be verifiable in polynomial time (i.e., not necessarily in NP).
 
+</br></br></br>
 
 
-</br></br></br></br>
+> **P ⊆ NP**, but we don’t know whether **P = NP**
+
+- ✅ Every problem in P is also in NP (solving ⇒ verifying).
+- ❓ We do **not** know whether **every problem that’s easy to verify is also easy to solve**.
+</br></br></br>
 
 
+## Basic Terminology
+- Tractable Problem : Takes polynomial time
+- Intractable (infeasible) Problem : Takes nonpolynomial time
 
 
-## Polynomial Time Algorithm
-An algorithm with polynomial time complexity.
-</br>
-**Examples:** Insertion Sort, Sequential Search, etc.
-</br></br>
-
-## Intractable Problem
-A problem that's impossible to solve efficiently with a polynomial time algorithm. (Cannot be solved with computer)
-</br></br></br></br>
 
 
 ## 3 Categories of problems
