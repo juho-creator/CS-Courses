@@ -1,10 +1,15 @@
 # Introduction to the Theory of NP
-Problems are divided into classes known as Complexity Classes as follows </br>
-![image](https://github.com/juho-creator/CS-Courses/assets/72856990/c2d6eee7-a2da-452e-a0ba-67ed892deb23)
-- **NP-Hard**: Problems at least as hard as the hardest problems in NP, but not necessarily in NP themselves.
-- **NP-Complete**: Problems in NP and as hard as NP-Hard problems, with solutions verifiable in polynomial time.
-- **Polynomial Problem (P) - solvable**: Set of all decision problems that can be solved by polynomial time algorithm
+Problems are divided into complexity classes based on the computational resources (like time or memory) required to solve or verify them.
+![image](https://github.com/user-attachments/assets/ad7f92ba-51aa-4749-b8a8-ba771d697ff8)
+
+
+
+- **Polynomial Problem (P) - solvable**: Problems that can be solved in polynomial time 
 - **Nondeterministic Polynomial Problem (NP) - Guess + Verify**: Verifiable in polynomial time, but finding the solution may require exponential time due to guessing. 
+- **NP-Complete**: Hardest problem in NP with solutions verifiable in polynomial time, but finding solution takes long time
+- **NP-Hard**: Problems at least as hard as NP-Complete. They may not even be verifiable in polynomial time (i.e., not necessarily in NP).
+
+
 
 </br></br></br></br>
 
